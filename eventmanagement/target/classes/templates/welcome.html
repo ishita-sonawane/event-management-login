@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+
+<head>
+	<meta charset="ISO-8859-1">
+	<title>Welcome</title>
+<!--			<link th:href="@{eventms.css}" rel="stylesheet"/>-->
+		<link rel="stylesheet" href="/eventms.css" >
+	<!--<style>-->
+	<!--	        .txt_field p{-->
+	<!--            width: 100%;-->
+	<!--            padding: 0 5px;-->
+	<!--            height: 40px;-->
+	<!--            font-size: 16px;-->
+	<!--            border: none;-->
+	<!--            background: red;-->
+	<!--            outline: none;-->
+
+	<!--        }-->
+
+	<!--</style>-->
+
+</head>
+
+<body>
+
+	<h3>***Getting Value in Thymeleaf***</h3>
+	<div class="txt_field">
+
+		Username <p th:text="${email}"></p>
+		Password <p th:text="${password}"></p>
+	</div>
+</body>
+
+</html>
